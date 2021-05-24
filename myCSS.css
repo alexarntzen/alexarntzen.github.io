@@ -22,10 +22,7 @@
     --secondary-dark-text: white;
     --background-text: black;
     --background-light-text: black;
-
-
 }
-
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
@@ -72,8 +69,8 @@ body{
     color: var(--secondary-text);
     padding: 15px 32px ;
     text-align: center;
+    width: 100%;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     cursor: pointer;
     margin-left: 0 ;
@@ -141,11 +138,13 @@ body{
 }
 
 input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  font-size: 16px;
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 16px;
+    margin: 8px 0;
+    border-style: solid;
+    border-color: lightgray ;
+    border-width: 0.5px;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
