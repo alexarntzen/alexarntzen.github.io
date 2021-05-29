@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-<html lang="no">
-
-<link rel="stylesheet" type="text/css" href="myCSS.css">
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="myCSS.css">
+    <script src="myScript.js" defer></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Alexander Johan Arntzen">
+    <meta name="description" content="This is my website. There is nothing special here yet.">
+
+    <html lang="en-US">
     <title>Alexander's web page</title>
+    <link rel = "shortcut icon" type = "image/png" href = "identicon.png">
 </head>
+
 <body>
 
-    <div class="topnav">
-        <a class="bold" href="/">Front page</a>
+    <nav class="topnav">
+        <a class="bold" href="./">Front page</a>
         <a href="page2.html">Page 2</a>
         <a href="page3.html">Page 3</a>
-    </div>
+    </nav>
 
-    <div class="content">
+    <header class="header">
+        <h2>Alexander's web page</h2>
+    </header>
+    
+    <main class="content">
         <div class="row">
             <div class="column">
-                <h2>Alexander's web page</h2>
                 <p>My first page</p>
             </div>
         </div>
         <div class="row">
-            <div class="column" >
+            <div class="column">
                 <p class="columntext">I could have written something here</p>
-                <button class="button" id ="myBtn">
+                <button class="button" id="myBtn">
                     This does something
                 </button>
                 <br>
@@ -35,21 +43,21 @@
                 <br>
 
             </div>
-            <div class="column hover-over" >
+            <div class="column hover-over">
                 <p class="columntext" id="kolonnetext2">Something could happen here</p>
             </div>
-            <div class="column hover-over" >
+            <div class="column hover-over">
                 <p class="columntext" id="kolonnetext3">
-                    Something could happen here too 
+                    Something could happen here too
                 </p>
             </div>
         </div>
-    </div>
+    </main>
 
-    <div class="footer">
-        <a>The bottom.</a>
-    </div>
+    <footer class="footer">
+        <p>The bottom.</p>
+    </footer>
 
 </body>
-<script src="myScript.js"></script>
+
 </html>
