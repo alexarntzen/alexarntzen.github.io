@@ -1,0 +1,25 @@
+---
+layout: default
+title: page.title
+keywords: page.keywords
+---
+<div class="front-matter">
+    <div class="container" >
+
+    <h1>{{ page.title }}</h1>
+        <h4>{{ page.subtitle }}</h4>
+        <div class='bylines'>
+            <div class='byline'>
+                <h3>Published</h3>
+                <p>{{ page.date | date: '%d %B %Y' }}</p>
+            </div>
+        </div>
+        <div class='clear'></div>
+    </div>
+</div>
+<div class='article container'>
+    {{ content }}
+</div>
+<div id='bibliography' class="container">
+    {% bibliography --cited %}
+</div>

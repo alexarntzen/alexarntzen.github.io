@@ -1,6 +1,6 @@
 let nameArray = [];
 
-document.querySelector(".button").addEventListener("click", () => {
+document.querySelector(".fun-button").addEventListener("click", () => {
     let name = document.querySelector("#nameInput").value;
     nameArray.push(name);
     document.querySelector("#kolonnetext2").textContent = "Hey, " + name + "!";

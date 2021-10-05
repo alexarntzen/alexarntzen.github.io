@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset='UTF-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+
+    <meta name="description" content="This is my website..}}">
+    <meta name='keywords' content='{{ page.keywords }}'>
+    <meta name='author' content='Alexander Johan Arntzen'>
+
+    <link href='/assets/css/blog.css' rel='stylesheet' />
+    <link href='/assets/css/trac.css' rel='stylesheet' />
+    <link href='/assets/css/markdown.css' rel='stylesheet' />
+    <link href='/assets/css/base.css' rel='stylesheet' />
+    <link rel="shortcut icon" type="image/png" href="/assets/img/identicon.png">
+    
+    <!-- MathJax -->
+    {% include mathjax.html %}
+</head>
+    {% include nav.html %}
+    <main class="flex">
+        {{ content }}
+    </main>
+    {% include footer.html %}
+</body>
+
+</html>
