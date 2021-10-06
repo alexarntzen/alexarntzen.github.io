@@ -10,4 +10,4 @@ published: true
 
 Credit where credit is due: 
 * Powered by [jekyll](https://jekyllrb.com/)
-* Design heavily inspired by  [Gregory Gundersen](https://github.com/gwgundersen/blog-theme)
+* Design heavily inspired by  [Gregory Gundersen's blog](https://github.com/gwgundersen/blog-theme)
