@@ -8,7 +8,7 @@ keywords: personal, blogging
 published: true
 ---
 
-### Digital contact information
+### Digital contact information:
 
 Email: hello[at][thisdomain.com]
 
