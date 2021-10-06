@@ -8,3 +8,10 @@ plugins:
   - jekyll-feed
 sass:   
   sass_dir: "assets/css"
+defaults: 
+  - 
+    scope:  
+      path: ""
+    values:   
+      title: "Alex's site"
+      description: "This is my site"

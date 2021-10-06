@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: Alexander's site
-subtitle: Here is some extra detail about the post.
+description: 
 layout: container
 date: 2021-06-21
 keywords: personal, blogging
