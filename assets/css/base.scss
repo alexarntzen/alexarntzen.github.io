@@ -155,6 +155,9 @@ nav.nav {
         float: left;
         display: block;
     }
+    a.current {
+        color: black;
+    }
     ul {
         list-style-type: none;
         padding: 0;

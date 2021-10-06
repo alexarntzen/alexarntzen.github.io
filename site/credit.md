@@ -1,12 +1,14 @@
 ---
 permalink: /credit/
 title: Alexander's site
-subtitle: Here is some extra detail about the post.
+description: This webiste was not built by me from the group up
 layout: container
 date: 2021-06-21
 keywords: personal, blogging
 published: true
 ---
+  
+This website was not built by me from the group up.
 
 Credit where credit is due: 
 * Powered by [jekyll](https://jekyllrb.com/)
