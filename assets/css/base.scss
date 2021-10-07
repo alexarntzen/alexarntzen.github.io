@@ -54,6 +54,7 @@ body {
 /* Create three equal columns that sits next to each other */
 .column {
     flex-direction: column;
+    display: flex;
     flex: 1;
     overflow: hidden;
 }
@@ -189,7 +190,6 @@ footer.footer {
     color: var(--secondary-text);
     padding: 15px 32px;
     text-align: center;
-    width: 100%;
     text-decoration: none;
     cursor: pointer;
     margin-left: 0;
@@ -217,11 +217,11 @@ header.header {
 
 input[type=text],
 select {
-    width: 100%;
     padding: 14px 20px;
     margin: 8px 0;
     border-style: solid;
     border-width: 0.5px;
+    text-overflow: ellipsis;
 }
 
 
