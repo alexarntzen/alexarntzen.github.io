@@ -15,3 +15,8 @@ defaults:
     values:   
       title: "Alex's site"
       description: "This is my site"
+    scope:  
+      type: "posts"
+    values:   
+      mathjax: true
+      layout: blog

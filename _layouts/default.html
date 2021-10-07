@@ -24,7 +24,9 @@
     {% include footer.html %}
     
     <!-- MathJax -->
-    {% include mathjax.html %}
+    {% if page.mathjax%}
+        {% include mathjax.html %}
+    {% endif %}
 </body>
 
 </html>
