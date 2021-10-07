@@ -14,7 +14,8 @@ defaults:
       path: ""
     values:   
       title: "Alex's site"
-      description: "This is my site"
+      description: "This is Alex's personal site. Various content"
+  -
     scope:  
       type: "posts"
     values:   
