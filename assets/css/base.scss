@@ -139,17 +139,19 @@ h1 {
 }
 
 /* Style the top navigation bar */
-nav.nav {
+nav,
+footer {
     // padding-left: 15px;
 
     /* Style the topnav links */
-    a.nav-text {
+    a.nav-footer-text {
         color: var(--secondary-dark-text);
         text-decoration: none;
         border-bottom: none;
         font-size: 14px;
-        text-align: center;
-        margin-right: 16px;
+        margin-right: 20px;
+        padding-bottom: 8px;
+        padding-top: 8px;
         &:hover {
             color: black;
         }
@@ -173,16 +175,6 @@ nav.nav {
 footer.footer {
     bottom: 0;
 
-    a.footer-text {
-        color: var(--secondary-dark-text);
-        text-decoration: none;
-        border-bottom: none;
-        font-size: 14px;
-        margin-right: 16px;
-        &:hover {
-            color: black;
-        }
-    }
 }
 .fun-button {
     background-color: var(--secondary);
