@@ -88,23 +88,32 @@ body {
         width: 970px;
     }
 }
-// @media(min-width: 1200px) {
-//     .container {
-//         width: 1170px;
-//     }
-// }
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media(min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media(max-width: 350px) {
+    .container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
 @media(max-width: 768px) {
+    .container{
+        margin-left: 0px; 
+    }
     .row {
         -webkit-flex-direction: column;
         flex-direction: column;
     }
     .column {
-        padding: none;
+        padding: 0;
     }
-    .column-border {
-        border: none;
-    }
+        // .column-border {
+        //     border: none;
+        // }
 }
 h1,
 h2,
@@ -156,14 +165,12 @@ footer {
         &:hover {
             color: black;
         }
-        float: left;
-        display: block;
+        display: inline-block;
     }
     a.current {
         color: black;
     }
     ul {
-        white-space: nowrap;
         list-style-type: none;
         padding: 0;
         margin: 0;
