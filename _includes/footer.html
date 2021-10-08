@@ -1,3 +1,7 @@
+{% assign current = page.url | downcase | split: '/' %}
 <footer class="footer container">
-    <a href="#top" class="nav-footer-text">The bottom.</a>
+    <ul>
+        <li><a class="nav-footer-text {% if current[1] == 'credit' %} current{% endif %}" href='/credit'>Credit</a></li>
+        <li><a class="nav-footer-text {% if current[1] == 'feed' %} current{% endif %}" href='/feed.xml'>RSS</a></li>
+    </ul>
 </footer>

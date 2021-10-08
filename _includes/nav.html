@@ -1,11 +1,10 @@
 {% assign current = page.url | downcase | split: '/' %}
 <nav class='nav container'>
-    <ul >
+    <ul>
         <li><a class="nav-footer-text {% if current[1] == blank %} current{% endif %}" href='/'>Home</a></li>
-        <li><a class="nav-footer-text {% if current[1] == 'contact' %} current{% endif %}" href='/contact'>Contact</a></li>
+        <li><a class="nav-footer-text {% if current[1] == 'contact' %} current{% endif %}" href='/contact'>Contact</a>
+        </li>
         <li><a class="nav-footer-text {% if current[1] == 'blog' %} current{% endif %}" href='/blog'>Blog</a></li>
-        <li><a class="nav-footer-text {% if current[1] == 'button' %} current{% endif %}"  href='/button'>Button</a></li>
-        <li><a class="nav-footer-text {% if current[1] == 'credit' %} current{% endif %}"  href='/credit'>Credit</a></li>
-        <li><a class="nav-footer-text {% if current[1] == 'feed' %} current{% endif %}"  href='/feed.xml'>RSS</a></li>
+        <li><a class="nav-footer-text {% if current[1] == 'button' %} current{% endif %}" href='/button'>Button</a></li>
     </ul>
 </nav>
