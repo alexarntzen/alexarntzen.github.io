@@ -58,6 +58,7 @@ body {
     display: flex;
     flex: 1;
     overflow: hidden;
+    width: 100%;
 }
 .column-border {
     border-left: 1px solid var(--secondary);
@@ -105,7 +106,7 @@ body {
         margin-left: 0px; 
     }
     .row {
-        -webkit-flex-direction: column;
+        -webkkit-flex-direction: column;
         flex-direction: column;
     }
     .column {
